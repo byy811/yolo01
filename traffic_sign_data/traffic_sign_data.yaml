@@ -1,0 +1,36 @@
+# ----------------------------------------------------
+# 1. 路径配置 (假设 data.yaml 和 traffic_sign_data 文件夹在同一级)
+# ----------------------------------------------------
+path: C:\app\cod_tool\program_tool\jet\pycharm_fil\25\1120\yolo0501\traffic_sign_data   # 数据集根目录的相对路径
+train: train/images             # 相对于 path 字段的路径
+val: valid/images               # 相对于 path 字段的路径
+test: test/images               # 相对于 path 字段的路径
+
+# ----------------------------------------------------
+# 2. 类别配置
+## ----------------------------------------------------
+#nc: 43                      # 类别数量 (GTSDB是43类，请根据你的实际数据集修改)
+#
+## 类别名称 (必须按 0, 1, 2... 的顺序排列，且与你的标签文件ID对应)
+#names: ['speed_limit_20', 'speed_limit_30', 'no_passing', 'warning_curve', ...]
+## 请根据你的实际数据集的交通标志类别完整填写
+
+
+nc: 15
+names: ['Green Light',
+        'Red Light',
+        'Speed Limit 10',
+        'Speed Limit 100',
+        'Speed Limit 110',
+        'Speed Limit 120',
+        'Speed Limit 20',
+        'Speed Limit 30',
+        'Speed Limit 40',
+        'Speed Limit 50',
+        'Speed Limit 60',
+        'Speed Limit 70',
+        'Speed Limit 80',
+        'Speed Limit 90',
+        'Stop']
+
+
