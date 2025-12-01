@@ -30,7 +30,7 @@ MODELS = {
     '基线模型': 'runs/detect/yolov8n_baseline/weights/best.pt',
     '改进模型-数据增强': 'runs/detect/yolov8n_augment/weights/best.pt',
     # '改进模型-CBAM': 'runs/detect/yolov8n_cbam/weights/best.pt',
-    '改进模型-CBAM': 'C:/app/cod_tool/program_tool/jet/pycharm_fil/25/1120\yolo0501/traffic_sign_data/runs/detect/yolov8n_cbam_method1/weights/best.pt',
+    '改进模型-CBAM': 'runs/detect/yolov8n_cbam_method1/weights/best.pt',
 }
 
 @st.cache_resource
